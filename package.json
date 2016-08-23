@@ -1,9 +1,9 @@
 {
-	"name" 			: "wiley-font-library" 						,
-	"version" 		: "0.1.0" 									,
-	"description" 	: "The John Wiley & Sons font CDN library." ,
-	"author" 		: "Wiley UI Developers" 					,
-	"main" 			: "index.js" 								,
+	"name" 			: "example-font-library" 		,
+	"version" 		: "0.1.0" 						,
+	"description" 	: "Example font CDN library." 	,
+	"author" 		: "Stuart Pretorius" 			,
+	"main" 			: "index.js" 					,
 	"scripts" 		: {
 		"test" 		: "grunt test"
 	} ,
