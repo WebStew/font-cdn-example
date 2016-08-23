@@ -1,0 +1,35 @@
+
+.is__accessible {
+    left        : -9999px;
+    position    : absolute;
+    top         : -9999px;
+}
+
+.haslayout {
+    overflow    : hidden;
+}
+
+// Font styles
+.italic {
+    font-style  : italic;
+}
+
+.weight--light {
+    font-weight : 300;
+}
+
+.weight--regular {
+    font-weight : 400;
+}
+
+.weight--semi-bold {
+    font-weight : 600;
+}
+
+.weight--bold {
+    font-weight : 700;
+}
+
+.weight--extra-bold {
+    font-weight : 800;
+}

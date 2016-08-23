@@ -1,0 +1,16 @@
+{
+  "name": "Wiley Font Library",
+  "version": "0.1.0",
+  "dependencies": {
+    "dustjs-linkedin": "~2.7.2",
+    "dustjs-linkedin-helpers": "~1.7.3",
+    "requirejs": "~2.1.20",
+    "jquery": "~2.1.4"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "dustjs-linkedin": "~2.7.2",
+    "dustjs-linkedin-helpers": "~1.7.3",
+    "requirejs": "~2.1.20"
+  }
+}

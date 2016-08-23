@@ -1,0 +1,20 @@
+
+a {
+    color           : $color-action;
+    cursor          : pointer;
+    text-decoration : underline;
+
+    &:visited {
+        color           : darken( $color-actioned, 25 );
+    }
+
+    &:hover,
+    &:focus {
+        color           : darken( $color-action, 25 );
+        text-decoration : none;
+    }
+
+    .csstransitions & {
+        @include transition( color, 0.25s, $transition-function );
+    }
+}

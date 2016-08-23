@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-javascript" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width" name="viewport">
+
+    <title>{+title/} - Example Font Library</title>
+
+    <link href="/stylesheets/font-library.css" rel="stylesheet">
+
+    <script>
+        ( function () {
+            var classname = document.documentElement.className;
+
+            document.documentElement.className = classname.replace ( 'no-javascript' , '' );
+        } ());
+    </script>
+</head>
+<body>
+<div class="page">
+    {+body /}
+</div>
+<script data-main="/javascripts/font-library" src="/components/requirejs/require.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+// Base
+$name               : 'Wiley Font Library' !default;
+$filename           : to-lower-case( str-replace( $name, ' ', '-' ));
+
+// Fonts
+$font-family-body   : Arial, Helvetica, sans-serif;
+$font-family-code   : 'Courier New', Courier, monospace;
+$font-family-quote  : Georgia, serif;
+
+// Font sizes
+$font-size-body     : 16px;
+
+// Colours
+$color-action       : #03c6fe;
+$color-actioned     : #a203fe;
+$color-body         : #333;
+$color-error        : #f63400;
+$color-highlight    : lighten( $color-action, 35 );
+$color-valid        : #03fe0f;
+$color-warning      : #fe8b03;
+
+// Media query sizes
+$mobile-portrait    : 320px;
+$mobile-landscape   : 480px;
+$phablet            : 768px;
+$desktop-small      : 1024px;
+$desktop-medium     : 1280px;
+$desktop-large      : 1350px;
+
+// Page properties
+$page-width         : 1400px;
+
+// Transitions
+$transition-function : ease-in-out;

@@ -1,0 +1,7 @@
+
+@font-face {
+  @include      fontface( 'italic' );
+  font-family   : $name;
+  font-style    : italic;
+  font-weight   : 400;
+}
